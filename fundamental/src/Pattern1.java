@@ -276,3 +276,158 @@
 ////4321
 ////54321
 //
+
+//////Pattern 9 ------------------------------
+//
+//package Patterns;
+//import java.util.Scanner;
+//
+//public class pattern2 {
+//	public static void main(String [] args) {
+//		
+//		Scanner sc = new Scanner(System.in);
+//	    int n = sc.nextInt();
+//	    int i = 1;
+//	  
+//	    while( i <= n) {
+//	    	int j = 1;
+//	    	while(j <= n) {
+//	    		char jchr = (char)('A'+j-1);
+//	    		System.out.print(jchr);
+//	    		j++;
+//	    	}
+//	    	System.out.println();
+//	    	i++;
+//	    	
+//	    }
+//	}
+//
+//}
+//
+////output
+//
+////n = 4
+////ABCD
+////ABCD
+////ABCD
+////ABCD
+//
+//
+//////Pattern 10 ------------------------------
+//
+//
+//
+//package Patterns;
+//
+//import java.util.Scanner;
+//public class pattern1 {
+//	public static void main(String [] args) {
+//		
+//		Scanner sc = new Scanner(System.in);
+//	    int n = sc.nextInt();
+//	    int i = 1;
+//	    while( i <= n) {
+//	    	int j = 1;
+//	    	char jchr = (char)('A'+i-1);
+//	    	while(j <= n) {
+//	    		
+//	    		System.out.print(jchr);
+//	    		j++;
+//	    		jchr++;
+//	    	}
+//	    	System.out.println();
+//	    	i++;
+//	    }
+//	}
+//}
+//
+////Output
+////
+////n = 4
+////
+////ABCD
+////BCDE
+////CDEF
+////DEFG
+//
+//
+//////Pattern 11 ------------------------------
+//
+//
+//
+//package Patterns;
+//
+//import java.util.Scanner;
+//
+//public class pattern1 {
+//public static void main(String [] args) {
+//		
+//		Scanner sc = new Scanner(System.in);
+//	    int n = sc.nextInt();
+//	    int i = 1;
+//	    while( i <= n) {
+//	    	int j = 1;
+//	    	char jchr = (char)('A'+i-1);
+//	    	while(j <= i) {
+//	    		System.out.print(jchr);
+//	    		j++;
+//	    		jchr++;
+//	    	}
+//	    	System.out.println();
+//	    	i++;
+//	    }
+//	}
+//}
+//
+//
+////Output
+////
+////n = 6
+////A
+////BC
+////CDE
+////DEFG
+////EFGHI
+////FGHIJK
+//
+//
+//////Pattern 12 ------------------------------
+//
+//
+//
+//
+//package Patterns;
+//
+//import java.util.Scanner;
+//
+//public class pattern1 {
+//public static void main(String [] args) {
+//		
+//		Scanner sc = new Scanner(System.in);
+//	    int n = sc.nextInt();
+//	    int i = 1;
+//	    while( i <= n) {
+//	    	int j = 1;
+//	    	char jchr = (char)('A'+n-i);
+//	    	while(j <= i) {
+//	    		System.out.print(jchr);
+//	    		j++;
+//	    		jchr++;
+//	    	}
+//	    	System.out.println();
+//	    	i++;
+//	    }
+//	}
+//}
+//
+////output
+////n = 7
+////G
+////FG
+////EFG
+////DEFG
+////CDEFG
+////BCDEFG
+////ABCDEFG
+
+
